@@ -91,9 +91,15 @@ td:hover {
 @media screen and (min-width: 310px) and (max-width: 600px) {
   table {
     width: 100%;
-    display: block;
+    display: block; 
     overflow-x: auto;
-    white-space: nowrap;
+   white-space: nowrap; 
+   } 
+
+   thead, tbody, th, td, tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
   }
   thead {
     font-size: 11px;
