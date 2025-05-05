@@ -24,6 +24,12 @@ function addStudent() {
           <td>${student.age}</td>
           <td>${student.course}</td>
           <td>${student.campus}</td>
+          <br />
         </tr> `;
   parent.innerHTML += tableData;
+}
+
+function deleteAll() {
+  // console.log("deleteAll")
+  parent.innerHTML = "";
 }
